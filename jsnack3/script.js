@@ -18,14 +18,11 @@ for (let i = 0; i < 10; i++) {
 // Snack 3 blocco 1 con While:
 // Il software deve chiedere per 10 volte all’utente di inserire un numero.
 // Il programma stampa la somma di tutti i numeri inseriti.
-let i = 0
+let i = 0;
 let sumN = i;
 while (i < 10) {
-
-    console.log(i);
+    // console.log(i);
     const userNumber = Number(prompt("Inserisci un numero"))
     sumN += userNumber
-
-
     i++
 } console.log(sumN);
